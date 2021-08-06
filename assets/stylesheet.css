@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0)
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav ul {
+    margin: 0;
+  }
+
+  .nav li {
+    display: inline;
+  }
+
+  .nav a {
+    display: inline-block;
+    padding: .2em;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    border-bottom: 2px solid white;
+  }
+
+  .main-nav {
+    text-align: right;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+
+  .main-nav li {
+    padding: 0, 2%;
+  }
+
+  .nav a:hover {
+    background-color: rgba( 255, 255, 255, .3);
+  }
+
+  .main-header {
+    background-color: rgb(230, 185, 62);
+    background-size: cover;
+    padding: 25px;
+    border-bottom:5px black;
+
+  }
+
+  .second-header {
+    background-color: rgb(104, 138, 85);
+    background-image: url("./Images/background-hexagon.jpeg");
+    background-size: cover;
+    background-blend-mode: multiply;
+    padding: 45px;
+    text-align: right;
+    font-size: 3em;
+    font-weight: bold;
+  }
+
+  h1 {
+    display: inline;
+    margin: 0px;
+    font-weight: bold;
+  }
+  
+  p {
+    flex-wrap: wrap;
+
+  }
+
+  .about-section {
+    margin: 1em;
+  }
+
+  /* .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+  } */ 
+  .box-1 {
+    display: inline-block;
+    border: 0 2 2 2;
+    border-color: black;
+    max-width: 300px;
+  }
+  .box-2 {
+    display: inline-block;
+    border: 0 2 2 2;
+    border-color: black;
+    max-width: 300px;
+  }
+.box-3 {
+  display: inline-block;
+  border: 0 2 2 2;
+  border-color: black;
+  max-width: 300px;
+}
+
+
+
+
+
+
+
+  /* nav {
+    display: inline-block;
+    /* Align the child elements to the right side of the parent */
+    /* justify-content:right;
+    color:blue;
+    background-color: yellow;
+    text-align:right;
+  }
+  
+  div {
+    color: #13293d;
+    padding: 14px 20px;
+    text-decoration: none;
+    flex-basis:auto;
+    display:inline-flex;
+    text-align: center; }
+    */
+  
+  /* footer {
+    padding: 20px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+    margin-top: auto;
+  } */
+  
+    /* .product {
+    display: flex; */
+    /* Align the child elements to the top of the parent */
+    /* align-items: flex-start;
+    width: 90%;
+    margin: 1% auto; 
+    }
+    */
+  
+  /* .product button {
+    font-size: 150%;
+  } */
+
+  /*
+  .product-slideshow {
+    display: flex;
+    /* Align the child elements to the center of the parent 
+    align-items: center;
+  }
+  */
+
+  /*
+  .product-image {
+    width: 100%;
+  }
+  
+  .product-details {
+    margin-left: 3%;
+    flex: 0 0 60%;
+  }
+  */
+
+  /*
+  @media screen and (max-width: 768px) {
+    main,
+    nav,
+    .product {
+      flex-direction: column;
+    }
+  
+    .product-slideshow button {
+      /* Removes the slideshow buttons from the document flow
+      display: none;
+    }
+    
+    /*
+    .product-details {
+      margin-left: 0;
+    }
+  }
+*/  
