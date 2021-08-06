@@ -43,8 +43,12 @@
     background-color: rgb(230, 185, 62);
     background-size: cover;
     padding: 25px;
-    border-bottom:5px black;
-
+    font-size: 1em;
+    font-weight: bold;
+    border-left: solid black 5px;
+    border-right: solid black 5px;
+    display: flex;
+    justify-content: space-between;
   }
 
   .second-header {
@@ -52,16 +56,47 @@
     background-image: url("./Images/background-hexagon.jpeg");
     background-size: cover;
     background-blend-mode: multiply;
-    padding: 45px;
+    padding: 40px;
     text-align: right;
     font-size: 3em;
     font-weight: bold;
+    border: 5px solid black;
   }
 
   h1 {
     display: inline;
     margin: 0px;
     font-weight: bold;
+  }
+
+  .label {
+    /* display: inline; */
+    position: relative;
+    background-color: thistle;
+    top: 45%;
+    max-width: 45%;
+  }
+
+  h3 {
+    font-size: .5rem;
+  }
+  /* h3 {
+    display: inline;
+    position: relative;
+    background-color: thistle;
+    top: 70%
+  }
+  .image-info {
+    display: inline;
+    position: relative;
+    background-color: thistle;
+    top: 80%;
+    left: 0px;
+
+  } */
+
+  .main-header-text {
+    background-color:teal;
   }
   
   p {
@@ -73,14 +108,68 @@
     margin: 1em;
   }
 
-  /* .container {
+   .container {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1.5em;
-  } */ 
+  }  
+
+  .container-2 {
+    display:flex;
+    /* position: relative; */
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+
+  .container-content {
+    /* font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    width: 200px;
+    color:rgb(104, 138, 85);
+    margin:10px 0px 10px 100px;
+    padding-right:10px;
+    text-align:right; */
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 10px;
+    border-right: green 4px solid;
+    font-size: 35px;
+  }
+
+  .container-2 div {
+    flex: 0 0 75%
+  }
+
+  .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .individual-image {
+    border: 4px teal solid;
+    min-height: 150px;
+    max-height: 150px;
+    margin-bottom: 10px;
+  }
+
+  .project-one {
+    background-image: url("./Images/work_image_1.jpeg");
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+  }
+  .project-two {
+    background-image: url("./Images/work_image_2.jpeg");
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+  }
+
   .box-1 {
     display: inline-block;
-    border: 0 2 2 2;
+    border: 10px;
     border-color: black;
     max-width: 300px;
   }
@@ -90,76 +179,28 @@
     border-color: black;
     max-width: 300px;
   }
-.box-3 {
+  .box-3 {
   display: inline-block;
   border: 0 2 2 2;
   border-color: black;
   max-width: 300px;
 }
-
-
-
-
-
-
-
-  /* nav {
-    display: inline-block;
-    /* Align the child elements to the right side of the parent */
-    /* justify-content:right;
-    color:blue;
-    background-color: yellow;
-    text-align:right;
-  }
-  
-  div {
-    color: #13293d;
-    padding: 14px 20px;
-    text-decoration: none;
-    flex-basis:auto;
-    display:inline-flex;
-    text-align: center; }
-    */
-  
-  /* footer {
-    padding: 20px;
-    text-align: center;
-    background: #13293d;
-    color: #fff;
-    margin-top: auto;
-  } */
-  
-    /* .product {
-    display: flex; */
-    /* Align the child elements to the top of the parent */
-    /* align-items: flex-start;
-    width: 90%;
-    margin: 1% auto; 
-    }
-    */
-  
-  /* .product button {
-    font-size: 150%;
-  } */
-
-  /*
-  .product-slideshow {
+  /* .image-display */
+  .animal{
     display: flex;
-    /* Align the child elements to the center of the parent 
-    align-items: center;
-  }
-  */
+    flex-direction: row;
+    border:10px rgb(0, 0, 0)
 
-  /*
-  .product-image {
-    width: 100%;
   }
+
+  .image-boxes {
+    display: flex;
+    justify-content: flex-end;
+    padding:10px;
+    border: 10px black;
+  }
+
   
-  .product-details {
-    margin-left: 3%;
-    flex: 0 0 60%;
-  }
-  */
 
   /*
   @media screen and (max-width: 768px) {
