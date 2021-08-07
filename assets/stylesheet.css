@@ -62,7 +62,7 @@
   }
 
   .second-header-text {
-    background-color: teal;
+    background-color: rgb(35, 155, 155);
     text-align: right;
     font-size: 1em;
     max-width: 10%;
@@ -101,7 +101,7 @@
   } */
 
   .main-header-text {
-    background-color:teal;
+    background-color:rgb(35, 155, 155);
   }
   
   p {
@@ -222,9 +222,8 @@
 
   .article-content {
     flex-wrap: wrap;
-    text-align: right;
-    margin: 10px;
-    text-indent: 1em;
+    margin-left: 25%;
+    padding-bottom: 2%;
   }
 
   /*
