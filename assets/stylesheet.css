@@ -57,10 +57,15 @@
     background-size: cover;
     background-blend-mode: multiply;
     padding: 40px;
-    text-align: right;
-    font-size: 3em;
     font-weight: bold;
     border: 5px solid black;
+  }
+
+  .second-header-text {
+    background-color: teal;
+    text-align: right;
+    font-size: 1em;
+    max-width: 10%;
   }
 
   h1 {
@@ -100,7 +105,10 @@
   }
   
   p {
-    flex-wrap: wrap;
+    text-align: right;
+    display: inline;
+    margin: 0px;
+    font-weight: bold;
 
   }
 
@@ -108,7 +116,7 @@
     margin: 1em;
   }
 
-   .container {
+  .container {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1.5em;
@@ -159,6 +167,7 @@
   .project-one {
     background-image: url("./Images/work_image_1.jpeg");
     background-size: contain;
+    
     /* background-repeat: no-repeat; */
   }
   .project-two {
@@ -166,7 +175,18 @@
     background-size: contain;
     /* background-repeat: no-repeat; */
   }
-
+  .project-three {
+    background-image: url("./Images/work_image_3.jpeg");
+    background-size: contain;
+  }
+  .project-four {
+    background-image: url("./Images/work_image_4.jpeg");
+    background-size: contain;
+  }
+  .project-five {
+    background-image: url("./Images/work_image_5.jpeg");
+    background-size: contain;
+  }
   .box-1 {
     display: inline-block;
     border: 10px;
@@ -200,7 +220,12 @@
     border: 10px black;
   }
 
-  
+  .article-content {
+    flex-wrap: wrap;
+    text-align: right;
+    margin: 10px;
+    text-indent: 1em;
+  }
 
   /*
   @media screen and (max-width: 768px) {
