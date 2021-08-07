@@ -167,26 +167,48 @@
   .project-one {
     background-image: url("./Images/work_image_1.jpeg");
     background-size: contain;
+    opacity: 75%;
     
     /* background-repeat: no-repeat; */
   }
+  .project-one:hover {
+    opacity: 100%;
+  }
+
   .project-two {
     background-image: url("./Images/work_image_2.jpeg");
     background-size: contain;
+    opacity: 75%;
     /* background-repeat: no-repeat; */
+  }
+  .project-two:hover {
+    opacity: 100%;
   }
   .project-three {
     background-image: url("./Images/work_image_3.jpeg");
     background-size: contain;
+    opacity: 75%;
+  }
+  .project-three:hover {
+    opacity: 100%;
   }
   .project-four {
     background-image: url("./Images/work_image_4.jpeg");
     background-size: contain;
+    opacity: 75%
+  }
+  .project-four:hover {
+    opacity: 100%;
   }
   .project-five {
     background-image: url("./Images/work_image_5.jpeg");
     background-size: contain;
+    opacity: 75%;
   }
+  .project-five:hover {
+    opacity: 100;
+  }
+
   .box-1 {
     display: inline-block;
     border: 10px;
@@ -226,22 +248,22 @@
     padding-bottom: 2%;
   }
 
-  /*
-  @media screen and (max-width: 768px) {
+
+  /* @media screen and (max-width: 900px) {
     main,
     nav,
-    .product {
+    .body {
       flex-direction: column;
     }
-  
-    .product-slideshow button {
-      /* Removes the slideshow buttons from the document flow
+  @media screen and (min-width: 900px)
+      flex-direction: row;
+  } 
+  .product-slideshow button {
+       Removes the slideshow buttons from the document flow
       display: none;
     }
     
-    /*
     .product-details {
       margin-left: 0;
-    }
-  }
-*/  
+    }   
+  */
