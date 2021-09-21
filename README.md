@@ -1,4 +1,27 @@
-# JonathanPortfolio
-Homework 2 - Portfolio
-<br><br>
-The following html file presents an example of what a web developers portfolio page should look like. The page is still rough around the edges but presents the three most important items. About Me, Prjoects completed or in progress and finally a designated area to Contact the web developer.  
+# **My Portfolio**
+
+## **Link to [Public Github Repo](https://github.com/BionicMatedorX/JonathanPortfolio)**
+
+## **Link to [Deployed Github Page](https://bionicmatedorx.github.io/JonathanPortfolio/)**
+
+## *Updated Portfolio Project Demonstration*
+
+![image](./assets/Images/portfolio_demo.gif)
+
+## *About New Portfolio Page*
+
+    This Portfolio Page represents a webpage a potential employer might open to view my information and past work. This portfolio is used to demonstrate to an employer the abilities I have learned on my web development journey. This portfolio was redesigned to be mobile first with a simple and easy to navigate design. 
+
+    - When the user clicks on the link they are taken to a portfolio page. At the top of the page the user is presented with a navigational bar that can quickly take them to the corresponding sections.
+
+    -When the user clicks on the 'Home' button they are taken to the greeting at the top. 
+
+    -When the user click on the 'About' button they are taken to a general description of who the portfolio page is about. 
+
+    -When the user clicks on the 'Skills' button they are presented with data that reflects the knowledge the portfolio page owner has aquired. 
+
+    -When the user clicks on the 'Work' button they are presented with works cited by the portfolio page owner. 
+
+    -When the user clicks on the 'Contact' button they are presented with a form they can fill out to submit a request to be contacted. 
+
+    -The Footer section of the portfolio page displays links that the user can follow the portfolio page owner on. 
