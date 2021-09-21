@@ -1,99 +1,191 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <head>
-    <meta charset="UTF-8">
-    <title>Jonathan Lino </title>
-    <link rel="stylesheet" href="./assets/stylesheet.css">
-  </head>
+        <link rel="stylesheet" href="./assets/stylesheet.css">
 
-  <body>
-    <header class="main-header">
-      <h1 class="main-header-text"> Jonathan Lino Portfolio </h1>
-      <nav class="nav main-nav">
-        <ul>
-          <li><a href="index.hmtl">About Me</a></li>
-          <li><a href="index.html">Work</a></li>
-          <li><a href="index.html">Contact Me</a></li>
-        </ul>
-      </nav>
-    </header>
-          
-   
-    
-    <header class="second-header">
-      <p class="second-header-text">Hello World</p>
-    </header>
+        <!-- box icons -->
 
-    <section class="container-2">
-      <h2 class="container-content">About Me</h2>
-      <article class="article-content">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-        <br><br>
-        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-        <br><br>
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </article>
-    </section>
-    
-    <section class="container-2">
-      <h2 class="container-content">Work</h2>
-      <div class="image-container-1">
-          
-          <div class="individual-image project-one">
-            <div class="label">
-              <h3>Crocodile Conservation Project</h3>
-              <span >test</span>
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Jonathan Lino Portfolio</title>
+    </head>
+    <body>
+        <!-- header -->
+
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Jonathan</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+
+            <!-- home -->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'm <span class="home__title-color">Jonathan</span><br> Web Design Student</h1>
+
+                    <a href="#" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/BionicMatedorX" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="assets/Images/work_image_5.jpeg" alt="">
+                </div>
+            </section>
+
+            <!-- about -->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/Images/work_image_2.jpeg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'm Jonathan</h2>
+                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!-- skills -->
+
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                        
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">JAVASCRIPT</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/Images/work_image_1.jpeg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!-- work -->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="assets/Images/work_image_1.jpeg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/Images/work_image_1.jpeg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/Images/work_image_1.jpeg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/Images/work_image_5.jpeg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/Images/work_image_5.jpeg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/Images/work_image_5.jpeg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!-- contact -->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Submit" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!-- footer -->
+        <footer class="footer">
+            <p class="footer__title">Jonathan</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
             </div>
-          </div>  
-      <!-- <div class="image-container-2"></div> -->
-          <div class="individual-image project-two">
-            <div class="label">
-              <h3>Horned Screamer Hideout</h3>
-                <span>test</span>
-            </div>  
-          
-          </div>
-          <div class="individual-image project-three">
-            <div class="label">
-              <h3>Rhino Rehabilitation</h3>
-                <span>test</span>
-            </div>   
-          </div>
+            <p>&#169; Thanks for Visiting</p>
+        </footer>
 
-          <div class="individual-image project-four">
-            <div class="label">
-              <h3>Shark Search</h3>
-                <span>test</span>
-            </div>    
-          </div>
 
-          <div class="individual-image project-five">
-            <div class="label">
-              <h3>Giraffe Garden</h3>
-                <span>test</span>
-            </div>
-          </div>  
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
 
-      </div>
-
-    </section>
-    
-    <section class="container-2">
-        <h2 class="container-content">Contact Me</h2>
-        <div class=image-container-1>
-        <nav class ="nav main-nav">
-          <ul>
-          <li>Phone:555-555-5555</li>
-          <li>Email: email@email</li>
-          <li>Github</li>
-        </ul>
-        </nav>
-      </div>
-
-    </section>
-        
-
-  </body>
-
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
